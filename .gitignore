@@ -1,0 +1,7 @@
+/.asset-cache
+/thomas-plessis.com.iml
+/Gemfile.lock
+/.idea
+_site
+.sass-cache
+.jekyll-metadata

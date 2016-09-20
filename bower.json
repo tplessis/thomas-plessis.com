@@ -1,0 +1,15 @@
+{
+  "name": "thomas-plessis.com",
+  "authors": [
+    "Thomas Plessis <tom.plessis@gmail.com>"
+  ],
+  "description": "",
+  "private": true,
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "font-awesome": "*"
+  }
+}

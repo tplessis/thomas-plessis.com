@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<!-- Main -->
+<div id="main">
+    <div class="inner">
+        <header>
+            <h1>Photographe de Mariages à <a href="{% post_url 2015-06-12-mission-booking-toulouse %}" title="Toulouse">Toulouse</a>.</h1>
+            <p>Mes photographies racontent l’histoire de votre mariage. Je me focalise sur les moments d’échanges, les émotions, et tous instants importants
+                qui passent parfois très rapidement. Je préfère la spontanéité aux photos posés. Je reste discret tout en étant présent. Toujours à l’écoute je
+                saurai vous accompagner avant, pendant et après votre mariage.</p>
+        </header>
+        <section class="tiles">
+            {% for post in site.posts %}
+            <article class="{{ post.style }}">
+                <span class="image">
+                    {% srcset {{ post.thumb }} ppi:1 alt={{ post.excerpt }} %}
+                        {% srcset_source width:412 size:'33vw' fallback:true %}
+                        {% srcset_source width:380 size:'33vw' %}
+                        {% srcset_source width:300 size:'33vw' %}
+                        {% srcset_source width:250 size:'33vw' %}
+                        {% srcset_source width:150 size:'33vw' %}
+                    {% endsrcset %}
+                 </span>
+                <a href="{{ post.url }}">
+                    <h2>{{ post.title }}</h2>
+                    <div class="content">
+                        <p>{{ post.excerpt }}</p>
+                    </div>
+                </a>
+            </article>
+            {% endfor %}
+        </section>
+    </div>
+</div>
