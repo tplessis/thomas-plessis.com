@@ -6,9 +6,9 @@ thumb: 2016-07-04-mariage-chateau-mousens-mr-s-mme-j/thumb.jpg
 style: style1
 ---
 
-Mr T. et Mme F. se sont mariés aux Capitole de Toulouse, dans la magnifique salle des Illustres. La soirée et le vin d'honneur ont ensuite eut lieu à 
-[l'orangerie de Rochemontes](http://www.rochemontes.com/). Je vous laisse découvrir un extrait de leur journée haute en couleurs, en bonheur et en joie et 
-j’en profite pour les remercier de m’avoir choisi comme photographe pour réaliser le reportage photo de leur mariage.
+Mr S. et Mme J. se sont mariés à la mairie de Tournefeuille, puis le vin d'honneur a eut lieu au [château de Mousens](http://www.location-reception-mariage-toulouse.com/). 
+Une cérémonie laïque champêtre pleine de couleurs et d'émotions. Je vous laisse découvrir le reportage de leur mariage et j’en profite pour les remercier 
+de m’avoir choisi comme photographe pour réaliser le reportage photo de leur mariage.
 
 <span class="image fit">
 {% srcset 2016-07-04-mariage-chateau-mousens-mr-s-mme-j/DSC_6589.jpg ppi:1 alt='Mariage au château de Mousens' %}
