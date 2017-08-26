@@ -9,8 +9,9 @@ order: 3
 
 Saisissez ci-dessous votre identifiant et votre mot de passe pour accéder à vos albums :
 
-<form action="http://www.jingoo.com/index.php" method="post" target="_top">
+<form action="https://www.jingoo.com/index.php" method="post" target="_top">
     <input name="action" type="hidden" value="login">
+    <input type="hidden" name="idPhotographeAccesModule" value="/infos/acces.php/795013">
     <div class="row uniform">
         <div class="6u$">
             <input type="text" placeholder="Identifiant" value="TP15-" id="identifiant2" name="login">
